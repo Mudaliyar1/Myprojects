@@ -69,6 +69,7 @@
 
 }
 
+
 .index .navbarLinksMobile .navbarMenuMobile{
     display: flex;
     justify-content: center;
@@ -85,3 +86,39 @@
     text-decoration: none;
     color: white;
 }
+
+.index .navbarLinksMobile i{
+    color: white;
+    float: right;
+    font-size: 25px;
+   
+}
+
+
+.closeIcon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    float: right;
+    margin-right: 8px;
+    margin-top: -75px;
+}
+
+.closeIcon span{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.closeIcon span:nth-child(1){
+    transform: rotate(43deg);
+}
+
+
+.closeIcon span:nth-child(2){
+    transform: rotate(135deg);
+    margin-top: -13px;
+}
+
+

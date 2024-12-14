@@ -1,7 +1,12 @@
 function ham_open(){
-    let show=document.getElementById("navbarmobile");
-    show.style.display="block";
+    let open=document.getElementById("navbarmobile");
+    open.style.display="block";
 }
 
 
 
+
+function ham_close(){
+    let close=document.getElementById("navbarmobile");
+    close.style.display="none";
+}
