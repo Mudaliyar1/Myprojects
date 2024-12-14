@@ -25,6 +25,31 @@
     margin-left: 30px;
 }
 
+.themeChange{
+    margin-left: 140px;
+}
+@media(max-width:700px){
+    .themeChange{
+        margin-left: 250px;
+    }
+}
+@media(max-width:480px){
+    .themeChange{
+        margin-left: 200px;
+    }
+}
+
+@media(max-width:390px){
+    .themeChange{
+        margin-left: 120px;
+    }
+}
+@media(max-width:320px){
+    .themeChange{
+        margin-left: 90px;
+    }
+}
+
 .indexHeader .navbarLinksPc {
     display: flex;
     flex-direction: row;
