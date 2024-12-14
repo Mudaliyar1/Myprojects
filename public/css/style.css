@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.indexHeader{
+.indexHeader {
     width: 100vw;
     height: 60px;
     background-color: black;
@@ -14,17 +14,18 @@
     position: fixed;
     border-bottom: 1px solid white;
     z-index: 4;
+    color: white;
 }
 
-.indexHeader img{
-    width:50px;
+.indexHeader img {
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     margin: 10px;
     margin-left: 30px;
 }
 
-.indexHeader .navbarLinksPc{
+.indexHeader .navbarLinksPc {
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -32,29 +33,31 @@
     margin-right: 200px;
 }
 
-@media(max-width:700px){
-    .indexHeader .navbarLinksPc{
+@media(max-width:700px) {
+    .indexHeader .navbarLinksPc {
         display: none;
     }
 }
 
-.indexHeader .navbarLinksPc a{
+.indexHeader .navbarLinksPc a {
     text-decoration: none;
     color: white;
 }
-.index .navbarMobile{
+
+.index .navbarMobile {
     display: flex;
     flex-direction: column;
     gap: 5px;
     margin: 10px;
 }
 
-@media(min-width:701px){
-    .index .navbarMobile{
+@media(min-width:701px) {
+    .index .navbarMobile {
         display: none;
     }
 }
-.index .navbarMobile span{
+
+.index .navbarMobile span {
     width: 25px;
     height: 3px;
     background-color: white;
@@ -62,7 +65,7 @@
 }
 
 
-.index .navbarLinksMobile{
+.index .navbarLinksMobile {
     display: none;
     position: fixed;
     width: 100vw;
@@ -72,7 +75,7 @@
 }
 
 
-.index .navbarLinksMobile .navbarMenuMobile{
+.index .navbarLinksMobile .navbarMenuMobile {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,20 +87,20 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.index .navbarLinksMobile .navbarMenuMobile a{
+.index .navbarLinksMobile .navbarMenuMobile a {
     text-decoration: none;
     color: white;
 }
 
-.index .navbarLinksMobile i{
+.index .navbarLinksMobile i {
     color: white;
     float: right;
     font-size: 25px;
-   
+
 }
 
 
-.closeIcon{
+.closeIcon {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -106,21 +109,36 @@
     margin-top: -75px;
 }
 
-.closeIcon span{
+.closeIcon span {
     width: 30px;
     height: 3px;
     background-color: white;
     border-radius: 5px;
 }
 
-.closeIcon span:nth-child(1){
+.closeIcon span:nth-child(1) {
     transform: rotate(43deg);
 }
 
 
-.closeIcon span:nth-child(2){
+.closeIcon span:nth-child(2) {
     transform: rotate(135deg);
     margin-top: -13px;
 }
 
 
+.index .indexMain {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+
+.index .indexMain .indexMainDiv1 {
+    position: relative;
+    top: 50px;
+    color: white;
+}
