@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="public/css/style.css">
 </head>
-<body>
-    <p>hello world</p>
+
+<body class="index">
+
+    <header class="indexHeader">
+        <a href=""><img src="public/images/main logo.jpg" alt=""></a>
+
+        <div class="navbarLinksPc">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </div>
+
+        <div class="navbarMobile" onclick="ham_open()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <div class="navbarLinksMobile" id="navbarmobile">
+        <div class="navbarMenuMobile">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </div>
+    </div>
+    
+    <script src="public/js/script.js"></script>
+
 </body>
+
 </html>
