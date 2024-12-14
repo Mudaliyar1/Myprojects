@@ -22,6 +22,7 @@ function darkMode(){
     let darkIcon=document.getElementById("darkMode");
     let lightIcon=document.getElementById("lightMode");
     dark.style.backgroundColor="black";
+    dark.style.color="white";
     darkIcon.style.display="none";
     lightIcon.style.display="block";
 
