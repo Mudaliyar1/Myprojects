@@ -12,6 +12,8 @@
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    border-bottom: 1px solid white;
+    z-index: 4;
 }
 
 .indexHeader img{
@@ -27,7 +29,7 @@
     flex-direction: row;
     gap: 50px;
     align-items: center;
-    margin-right: 250px;
+    margin-right: 200px;
 }
 
 @media(max-width:700px){
@@ -62,11 +64,11 @@
 
 .index .navbarLinksMobile{
     display: none;
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     background-color: black;
-
+    z-index: 5;
 }
 
 
