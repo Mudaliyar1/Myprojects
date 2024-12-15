@@ -6,7 +6,7 @@
     padding: 0px;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 0px;
 }
 
@@ -32,27 +32,30 @@
     margin-left: 30px;
 }
 
-.themeChange{
+.themeChange {
     margin-left: 140px;
 }
-@media(max-width:700px){
-    .themeChange{
+
+@media(max-width:700px) {
+    .themeChange {
         margin-left: 250px;
     }
 }
-@media(max-width:480px){
-    .themeChange{
+
+@media(max-width:480px) {
+    .themeChange {
         margin-left: 200px;
     }
 }
 
-@media(max-width:390px){
-    .themeChange{
+@media(max-width:390px) {
+    .themeChange {
         margin-left: 120px;
     }
 }
-@media(max-width:320px){
-    .themeChange{
+
+@media(max-width:320px) {
+    .themeChange {
         margin-left: 90px;
     }
 }
@@ -101,7 +104,7 @@
     display: none;
     position: fixed;
     width: 100vw;
-    height: 100dvh;
+    height: 100vh;
     background-color: black;
     z-index: 5;
 }
@@ -163,8 +166,9 @@
     position: absolute;
     top: 10px;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
+
 
 
 
@@ -175,10 +179,11 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 92px;
 }
 
 
-.indexMain .indexMainDiv1 .websiteBorder{
+.indexMain .indexMainDiv1 .websiteBorder {
     width: 95%;
     height: 200px;
     border: 1px solid;
@@ -186,11 +191,11 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
-    
+
 }
 
 
-.indexMain .indexMainDiv1 .websites{
+.indexMain .indexMainDiv1 .websites {
     width: 150px;
     height: 150px;
     font-family: "Poppins", sans-serif;
@@ -200,20 +205,21 @@
     text-align: center;
     background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
     border-radius: 50%;
-}   
+}
 
-.indexMain .indexMainDiv1 .websiteBorder button{
+.indexMain .indexMainDiv1 .websiteBorder button {
     width: 130px;
     height: 30px;
     border: none;
     border-radius: 8px;
-    background-image: radial-gradient( circle farthest-corner at 3.2% 49.6%,  rgba(80,12,139,0.87) 0%, rgba(161,10,144,0.72) 83.6% );
+    background-image: radial-gradient(circle farthest-corner at 3.2% 49.6%, rgba(80, 12, 139, 0.87) 0%, rgba(161, 10, 144, 0.72) 83.6%);
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
-.indexMain .indexMainDiv1 .websiteBorder button:hover{
+.indexMain .indexMainDiv1 .websiteBorder button:hover {
     background-color: red;
-    background-image: linear-gradient( 91.2deg,  rgba(136,80,226,1) 4%, rgba(16,13,91,1) 96.5% );}
+    background-image: linear-gradient(91.2deg, rgba(136, 80, 226, 1) 4%, rgba(16, 13, 91, 1) 96.5%);
+}
