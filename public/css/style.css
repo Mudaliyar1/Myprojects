@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Iceberg&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
     margin: 0px;
     padding: 0px;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
 }
 
 .indexHeader {
@@ -163,5 +170,50 @@
 
 .index .indexMain .indexMainDiv1 {
     position: relative;
-    top: 50px;
+    top: 90px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
+
+
+.indexMain .indexMainDiv1 .websiteBorder{
+    width: 95%;
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+
+.indexMain .indexMainDiv1 .websites{
+    width: 150px;
+    height: 150px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    align-content: center;
+    text-align: center;
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+    border-radius: 50%;
+}   
+
+.indexMain .indexMainDiv1 .websiteBorder button{
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-image: radial-gradient( circle farthest-corner at 3.2% 49.6%,  rgba(80,12,139,0.87) 0%, rgba(161,10,144,0.72) 83.6% );
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.indexMain .indexMainDiv1 .websiteBorder button:hover{
+    background-color: red;
+    background-image: linear-gradient( 91.2deg,  rgba(136,80,226,1) 4%, rgba(16,13,91,1) 96.5% );}
