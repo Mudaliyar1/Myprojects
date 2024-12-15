@@ -1,10 +1,14 @@
 function ham_open(){
     let open=document.getElementById("navbarmobile");
+    let scrollDeactive=document.getElementById('index');
     open.style.display="block";
+    scrollDeactive.style.overflow="hidden";
 }
 
 function ham_close(){
     let close=document.getElementById("navbarmobile");
+    let scrollActive=document.getElementById('index');
+    scrollActive.style.overflow="scroll";
     close.style.display="none";
 }
 
