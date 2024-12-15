@@ -12,7 +12,6 @@ function lightMode(){
     let light=document.getElementById("indexMain");
     let lightIcon=document.getElementById("lightMode");
     let darkIcon=document.getElementById("darkMode");
-    let btn=document.getElementById("idd").style.color="black";
     light.style.backgroundColor="white";
     light.style.color="black";
     lightIcon.style.display="none";
@@ -22,8 +21,6 @@ function darkMode(){
     let dark=document.getElementById("indexMain");
     let darkIcon=document.getElementById("darkMode");
     let lightIcon=document.getElementById("lightMode");
-    let btn=document.getElementById("idd").style.color="white";
-
     dark.style.backgroundColor="black";
     dark.style.color="white";
     darkIcon.style.display="none";
