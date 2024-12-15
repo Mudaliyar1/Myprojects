@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Iceberg&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.indexHeader {
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    border-bottom: 1px solid white;
+    z-index: 4;
+    color: white;
+}
+
+.indexHeader img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.themeChange {
+    margin-left: 140px;
+}
+
+@media(max-width:700px) {
+    .themeChange {
+        margin-left: 250px;
+    }
+}
+
+@media(max-width:480px) {
+    .themeChange {
+        margin-left: 200px;
+    }
+}
+
+@media(max-width:390px) {
+    .themeChange {
+        margin-left: 120px;
+    }
+}
+
+@media(max-width:320px) {
+    .themeChange {
+        margin-left: 90px;
+    }
+}
+
+.indexHeader .navbarLinksPc {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    margin-right: 200px;
+}
+
+@media(max-width:700px) {
+    .indexHeader .navbarLinksPc {
+        display: none;
+    }
+}
+
+.indexHeader .navbarLinksPc a {
+    text-decoration: none;
+    color: white;
+}
+
+.index .navbarMobile {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px;
+}
+
+@media(min-width:701px) {
+    .index .navbarMobile {
+        display: none;
+    }
+}
+
+.index .navbarMobile span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.index .navbarLinksMobile {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 5;
+}
+
+
+.index .navbarLinksMobile .navbarMenuMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.index .navbarLinksMobile .navbarMenuMobile a {
+    text-decoration: none;
+    color: white;
+}
+
+.index .navbarLinksMobile i {
+    color: white;
+    float: right;
+    font-size: 25px;
+
+}
+
+
+.closeIcon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    float: right;
+    margin-right: 8px;
+    margin-top: -75px;
+}
+
+.closeIcon span {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.closeIcon span:nth-child(1) {
+    transform: rotate(43deg);
+}
+
+
+.closeIcon span:nth-child(2) {
+    transform: rotate(135deg);
+    margin-top: -13px;
+}
+
+
+.backToTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    position: fixed;
+    top: 90%;
+    z-index: 2;
+    left: 85%;
+    border-radius: 9px;
+}
+
+.backToTop span{
+    width: 19px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.backToTop span:nth-child(1){
+    transform: rotate(126deg);
+    margin-bottom: -5px;
+    margin-left: -9px;
+    margin-top: -3px;
+}
+.backToTop span:nth-child(2){
+    transform: rotate(235deg);
+    margin-bottom: -1px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+
+
+
+/* footer code here */
+
+.footerPart{
+    width: 100vw;
+    height: 200px;
+    position: absolute;
+    top: 1030px;
+    border-top: 1px solid;
+    font-family: Poppins;
+    text-align: center;
+
+}
+.footerPart h2{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.footerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 45px;
+    align-items: center;
+}
+
+.footerDiv i{
+    font-size: 26px;
+}
+.footerDiv a:nth-child(1){
+    font-size: 26px;
+    color: blue;
+}
+.footerDiv a:nth-child(2){
+    font-size: 26px;
+    color: purple;
+}
+.footerDiv a:nth-child(3){
+    font-size: 26px;
+    color: red;
+}
