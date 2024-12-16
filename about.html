@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/utility.css">
+    <!-- <script src="public/js/script.js"></script> -->
+    <script src="public/js/script2.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body class="index">
+
+    <header class="indexHeader" id="indexHeader">
+        <a href=""><img src="public/images/main logo.jpg" alt=""></a>
+
+        <div class="themeChange">
+            <span class="material-symbols-outlined lightMode" style="color: white; display: none;" id="lightMode"
+                onclick="lightMode()">
+                light_mode
+            </span>
+            <span class="material-symbols-outlined darkMode" style="color: white;" id="darkMode" onclick="darkMode()">
+                dark_mode
+            </span>
+
+        </div>
+
+        <div class="navbarLinksPc">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+
+        <div class="navbarMobile" onclick="ham_open()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+
+    <div class="navbarLinksMobile">
+        <div class="navbarMenuMobile">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="closeIcon" id="closeIcon" onclick="ham_close()">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <a href="#">
+        <div class="backToTop">
+            <span class="backTo"></span>
+            <span class="backTo"></span>
+        </div>
+
+    </a>
+
+    <!-- main starts from here -->
+
+    <main class="aboutMain dayTheme nightTheme">
+
+        <div class="aboutSectionDiv">
+            <h2>Hi, I’m Mudaliyar Vijay – Transforming Ideas into Exceptional Web Experiences </h2>
+            <br>
+            <p>I am a passionate Frontend Developer and a second-year BCA student driven by the desire to craft digital
+                experiences that captivate, engage, and inspire. At just 20, I’ve already delivered 2-3 impactful
+                projects, blending cutting-edge technologies with design precision to create sleek, responsive, and
+                high-performance web solutions.</p>
+            <br>
+
+            <h2>Why I Stand Out</h2>
+            <br>
+            <h3>🚀 Innovative Thinker :&nbsp;&nbsp;<span> I don’t just code—I design solutions that solve real-world
+                    problems and elevate user experiences.</span></h3>
+            <h3>🚀 Master of Modern Web Tech :&nbsp;&nbsp;<span> Whether it’s crafting intuitive interfaces or
+                    optimizing performance, I’m skilled in the latest frameworks and tools to meet industry
+                    standards.</span></h3>
+            <h3>🚀 Relentless Drive : &nbsp;&nbsp;<span> I thrive on challenges, constantly refining my skills to stay
+                    ahead in the fast-evolving tech landscape.</span></h3>
+
+            <br>
+
+
+
+        </div>
+
+    </main>
+
+    <footer class="footerPart nightTheme dayTheme">
+        <h2>Follow Us on </h2>
+
+        <div class="footerDiv">
+            <a href="https://www.facebook.com/profile.php?id=61550755611897&mibextid=ZbWKwL"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ft_raise_59/profilecard/?igsh=MWF0azFxdmhkOW94ag=="><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://youtube.com/@ftraise59?si=dr5IA6VManbdZUAb"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <h2 style="margin-top: 10px;">Made By Vijay</h2>
+        <p style="margin-top: 10px;">&copy; copyright 2024</p>
+    </footer>
+</body>
+
+</html>
